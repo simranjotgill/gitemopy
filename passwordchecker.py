@@ -2,6 +2,7 @@ inp=input("enter password")
 inp=str(inp)
 a=len(inp)
 count=0
+x=0
 if a>=6 and a<=12:
     for i in range (a):
         if inp[i].isdigit:
